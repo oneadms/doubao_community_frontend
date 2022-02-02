@@ -4,10 +4,20 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build && yarn upload",
+    "upload": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.24.0",
+    "buefy": "^0.9.13",
     "core-js": "^3.6.5",
+    "darkreader": "^4.9.43",
+    "dayjs": "^1.10.7",
+    "element-ui": "^2.15.6",
+    "js-cookie": "^3.0.1",
+    "nprogress": "^0.2.0",
+    "scp2": "^0.5.0",
+    "vditor": "^3.8.10",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
@@ -17,6 +27,7 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^4.9.1"
   }
 }

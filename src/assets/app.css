@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body,html{
+
+
+  background-color: #f6f6f6;
+  color: black;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+ 
+}
+.el-card{
+  margin-bottom: 16px;
+}
+*{
+  font-family: zkr !important;
+}
+@font-face {
+  font-family: zkr;
+  src: url('./font/zkr.woff') format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
